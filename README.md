@@ -34,6 +34,8 @@ I am learning Selenium step by step, starting from:
 ```java
 WebDriver driver = new ChromeDriver();
 driver.get("https://example.com");
+System.out.println(driver.getTitle());
+driver.quit();
 
 🔹 Learning Status
 
